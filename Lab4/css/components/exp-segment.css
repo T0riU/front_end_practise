@@ -1,0 +1,52 @@
+
+.exp-segment {
+    display: flex;
+    flex-direction: column;
+}
+.exp-segment  .exp-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.exp-segment .exp-type{
+    font-size: 9px;
+    background: #D7FFE0;
+    border-radius: 100px;
+    padding: 8px 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #018C0F;
+    flex-shrink: 0;
+}
+.exp-segment .exp-info, .exp-segment .exp-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0 0 0;
+    align-items: flex-start;    
+
+}
+.exp-segment .exp-add {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 12px;
+    font-weight: 400;
+    color: #A7A7A7;
+}
+.exp-segment .exp-add > *{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.exp-segment .icon
+{
+    margin: 0 5px;
+}
+.exp-segment .exp-time {
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+.exp-segment hr {
+    margin: 20px 0px;
+    border-color: #EBEAED;
+}

@@ -1,0 +1,33 @@
+.tech-stack-section .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tech-stack-section .list .item {
+    flex: 1 0 calc(16% - 10px);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .tech-stack-section .list .item {
+        flex: 1 0 calc(20% - 10px);
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tech-stack-section .list .item {
+        flex: 1 0 calc(25% - 10px);
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tech-stack-section .list .item {
+        flex: 1 0 calc(50% - 10px);
+        margin: 5px;
+    }
+}

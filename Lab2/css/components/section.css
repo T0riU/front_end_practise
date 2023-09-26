@@ -1,0 +1,42 @@
+.section {
+    margin-bottom: 160px;
+}
+
+.section .title {
+    margin-bottom: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.section .subtitle {
+    margin-bottom: 90px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.section-left {
+    margin: 160px 0;
+}
+
+.section-left .title {
+    margin: 45px 0;
+}
+
+.section-left .subtitle {
+    margin-bottom: 90px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.section-left .text {
+    margin-bottom: 90px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+}

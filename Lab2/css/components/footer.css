@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .info  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .info > * {
+    margin: 0 40px;
+}
+
+.footer .separator {
+    border-top: 1px solid #666666;
+    width: 1200px;
+    margin: 40px 0px;
+}
+
+.footer .fnav .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer .fnav .list .item {
+    margin: 0 40px;
+}

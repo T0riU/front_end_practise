@@ -1,0 +1,9 @@
+.about-section {
+    width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-section {
+        width: auto;
+    }    
+}
